@@ -1,20 +1,20 @@
 ## 第四回課題<br>
 ※作成後EC2、RDSは削除済み<br>
 
-■VPC作成<br>
+### VPC作成<br>
 <img width="705" alt="VPC構成図" src="https://github.com/akiosako/raisetech_aws/assets/107123973/17c84c60-709a-45a2-9fd8-3daac06dd755">
 
-■EC2作成<br>
+### EC2作成<br>
 [セキュリティグループの設定]<br>
 インバウンド：マイIPからSSHのみ許可<br>
 アウトバウンド：全て許可<br>
 
-■RDS作成<br>
+### RDS作成<br>
 [セキュリティグループの設定]<br>
 インバウンド：EC2のセキュリティグループからMySQL/Auroraのみ許可<br>
 アウトバウンド：全て許可<br>
 
-■EC2からRDSへの接続確認<br>
+### C2からRDSへの接続確認<br>
 ①EC2起動を起動し、以下コマンドを実行<br>
 $ sudo yum update -y 
 
