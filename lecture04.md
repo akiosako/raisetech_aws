@@ -2,8 +2,7 @@
 ※作成後EC2、RDSは削除済み<br>
 
 ### VPC作成<br>
-<img width="705" alt="VPC構成図" src="https://github.com/akiosako/raisetech_aws/assets/107123973/17c84c60-709a-45a2-9fd8-3daac06dd755">
-
+![VPC構成図](https://github.com/akiosako/raisetech_aws/assets/107123973/0ec1f1b4-5938-42ef-9557-9d5fd70bce95)
 ### EC2作成<br>
 [セキュリティグループの設定]<br>
 インバウンド：マイIPからSSHのみ許可<br>
@@ -32,8 +31,8 @@ $ sudo systemctl start mysqld
 
 ⑥起動を確認<br>
 $ systemctl status mysqld.service<br>
-<img width="481" alt="MySQLの起動を確認" src="https://github.com/akiosako/raisetech_aws/assets/107123973/9c13d680-2dd2-4b24-ba32-aa67e2e0bae5"><br>
-
+![MySQLの起動を確認](https://github.com/akiosako/raisetech_aws/assets/107123973/5274fa71-99ff-4040-9cec-3044699abeb4)<br>
 ⑦RDS接続確認<br>
 mysql -u admin -p -h データベースエンドポイント<br>
-<img width="487" alt="RDS接続確認" src="https://github.com/akiosako/raisetech_aws/assets/107123973/3cdd41d9-6b62-4c2b-99e9-d55cd0e9f6e7">
+![RDS接続確認](https://github.com/akiosako/raisetech_aws/assets/107123973/92bdc1cb-b3cf-4f73-9275-7fd4c63c7ec0)
+
