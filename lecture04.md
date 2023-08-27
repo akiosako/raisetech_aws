@@ -36,4 +36,6 @@ $ systemctl status mysqld.service
 7) RDS接続確認  
 mysql -u admin -p -h データベースエンドポイント  
 ![RDS接続確認.png](images%2FRDS%E6%8E%A5%E7%B6%9A%E7%A2%BA%E8%AA%8D.png)
-
+8) EC2、RDSがtestVPCに作成されたことを確認  
+![EC2詳細.png](images%2FEC2%E8%A9%B3%E7%B4%B0.png)
+![RDS詳細.png](images%2FRDS%E8%A9%B3%E7%B4%B0.png)
