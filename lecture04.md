@@ -3,7 +3,7 @@
 ※作成後EC2、RDSは削除済み  
 
 ### VPC作成
-![VPC構成図.png](VPC%E6%A7%8B%E6%88%90%E5%9B%B3.png)
+![VPC構成図.png](images%2FVPC%E6%A7%8B%E6%88%90%E5%9B%B3.png)
 ### EC2作成  
 [セキュリティグループの設定]  
 インバウンド：マイIPからSSHのみ許可  
@@ -32,8 +32,8 @@ $ sudo systemctl start mysqld
 
 6) 起動を確認  
 $ systemctl status mysqld.service  
-![MySQL起動確認.png](MySQL%E8%B5%B7%E5%8B%95%E7%A2%BA%E8%AA%8D.png)
+![MySQL起動確認.png](images%2FMySQL%E8%B5%B7%E5%8B%95%E7%A2%BA%E8%AA%8D.png)
 7) RDS接続確認  
 mysql -u admin -p -h データベースエンドポイント  
-![RDS接続確認.png](RDS%E6%8E%A5%E7%B6%9A%E7%A2%BA%E8%AA%8D.png)
+![RDS接続確認.png](images%2FRDS%E6%8E%A5%E7%B6%9A%E7%A2%BA%E8%AA%8D.png)
 
