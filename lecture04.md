@@ -2,7 +2,8 @@
 
 ※作成後EC2、RDSは削除済み  
 
-### VPC作成  
+### VPC作成
+
 ![VPC構成図](https://github.com/akiosako/raisetech_aws/assets/107123973/0ec1f1b4-5938-42ef-9557-9d5fd70bce95)
 ### EC2作成  
 [セキュリティグループの設定]  
